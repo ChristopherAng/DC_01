@@ -653,7 +653,7 @@ section {
 /*form*/
 @media screen and (max-width: 1200px) {
   .myform {
-    margin:20px;
+    margin:20px !important;
   }
 }
 
