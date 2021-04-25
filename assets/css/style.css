@@ -651,11 +651,10 @@ section {
 }
 
 /*form*/
-.myform {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-}
+.myform (max-width: 660px){
+	.adjusted-mobile-margin .panel-row-style {
+		margin-left: 20px !important;
+	}
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
